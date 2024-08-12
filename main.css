@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #D2691E;
+    color: antiquewhite;
+    max-width: 1600px;
+    width: 100%;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    margin-left: 16px;
+    font-size: 26px;
+}
+header .links li a{
+    color:antiquewhite;
+    text-decoration: none;
+    font-size: 28px;
+}
+header .links li a:hover{
+    color: black;
+    font-size: 32px;
+    transition: 0.25s;
+}
+header li{
+    display: inline;
+    padding: 8px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container img{
+    margin-left: 16px;
+    box-shadow: 1px 1px 6px black;
+}
+h2, h3{
+    color: #D2691E;
+}
+#paragraph p{ 
+    text-align: justify;
+    text-indent: 50px;
+    width: 75%;
+}
+.container li{
+    display: inline;
+    margin-left: 8px;
+}
+.container li a{
+    text-decoration: none;
+    color: black;
+}
+.container li a:hover{
+    color:#B22222;
+    font-size: 20px;
+    transition: 0.25s;
+}
+section{
+    padding: 24px;
+}
+section h2{
+    margin-bottom: 16px;
+}
+section p, 
+form input, 
+textarea{
+    margin-bottom: 8px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+section img{
+    margin-right: 32px;
+}
+.social-links img{
+    height: 24px;
+}
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a{
+    text-decoration: none;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea, 
+form button{
+    display: block;
+    width: 320px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+input:focus, textarea:focus{
+    outline-color: #D2691E;
+}
+form textarea{
+    resize: none;
+    height: 150px;
+}
+section h3{
+    margin-bottom: 16px;
+}
+form button{
+    background-color: #D2691E;
+    color: antiquewhite;
+    font-size: 18px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #8B4513;
+}
+footer{
+    background-color: #D2691E;
+    color:antiquewhite;
+    padding: 16px 0;
+}
