@@ -143,9 +143,8 @@ textarea{
     margin-bottom: 8px;
     font-family: "Noto Sans KR", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: normal;
     font-style: normal;
-
 }
 section img{
     margin-right: 32px;
