@@ -11,38 +11,103 @@
 </head>
 <body>
     <header>
-       <div class="container">
-        <h1>Mystika - A sua loja esotérica </h1>
+       <div class="cabecalho">
         <nav>
             <ul class="links">
                 <li><a href="#about" title="Sobre a loja">Sobre a loja</a></li>
                 <li><a href="#about" title="Nossos produtos">Nossos produtos</a></li>
                 <li><a href="#contact" title="Contato">Contato</a></li>
-            </ul>
+                <li><a href="#" title="siga-nos no instagram"><img src="./instagram.png" alt="Logo do instagram"></a></li>
+                <li><a href="#" title="siga-nos no facebook"><img src="./facebook.png" alt="Logo do facebook"></a></li>
+            </ul>            
         </nav>
        </div>
     </header>
     <section id="about">
         <div class="container">
-            <img src="./mulher e leao.jpg" alt="mulher e leao" width="500px">
-            <div id="paragraph">
-                <h2>Sobre a loja</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil aliquam fugiat, voluptatem officia tempora maxime deleniti illum ipsam, numquam et reprehenderit ad nisi minima natus explicabo sed voluptatum. Illum, quis!
-                </p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque debitis obcaecati, expedita distinctio ea quod minima, numquam fugit earum, et commodi maiores. Beatae nemo eligendi fugiat, ut distinctio sunt in.
-                </p>
+            <img id="img-mystika" src="./mystika logo.png" alt="logo loja">
+                <div class="text-one">
+                    <form id="search-form" >
+                    <textarea name="procurar" id="procurar" name="procurar" placeholder="Olá, O que está procurando hoje?"></textarea>
+                    <button id="botao" value="submit" name="achei">Achei</button>
+                </form>
                 </div>
-                <div id="produtos">
-                <h2>Nossos produtos</h2>
-                <ul>
-                    <li><a href="#" title="Tarot">Tarot</a></li>
-                    <li><a href="#" title="Pedras">Pedras</a></li>
-                    <li><a href="#" title="Incensos">Incensos</a></li>
-                </ul>  
-            </div>
+                <div>
+                        <ul>
+                            <li><a href="#" title="atendimento"><img src="./atendimento.png" alt="atendimento"></a></li>
+                            <li><a href="#"  title="favoritos"><img src="./coracao.png" alt="favoritos"></a></li>
+                            <li><a href="#" title="minha-conta"><img src="./minha-conta.png" alt="minha-conta"></a></li>
+                            <li><a href="#" title="carrinho"><img src="./carrinho.jpg" alt="carrinho compras"></a></li>
+                        </ul>
+                </div>
         </div>
+    </section>
+    <hr/>
+    <section>
+        <div>
+        <h2>Nossos produtos</h2>
+        </div>
+        <div id="produtos">
+             <ul>
+                <li><a href="#" title="Tarot">
+                <img class="test-img1" id="tarot" src="./imagem tarot.jpg" alt=""></a></li>
+                <p>Produto indisponivel. <br></p>
+                <p>preço: R$10</p>
+            </ul>
+            <ul>   
+                <li><a href="#" title="Incensos">
+                <img class="test-img2" id="incenso" src="./incenso.jpg" alt=""></a></li>
+                <p>Produto indisponivel. <br></p>
+                <p>preço: R$10</p>
+            </ul> 
+            <ul>
+                <li><a href="#" title="Pedras">
+                <img class="test-img3" id="pedras" src="./ametista.jpg" alt=""></a></li>  
+                <p>Produto indisponivel. <br></p>
+                <p>preço: R$10</p>
+            </ul> 
+        <!-- </div> 
+        <div id="produtos">
+            <ul>   
+                <li><a href="#" title="Incensos">
+                <img class="test-img2" id="incenso" src="./incenso.jpg" alt=""></a></li>
+                <p>Produto indisponivel. <br></p>
+                <p>preço: R$10</p>
+            </ul>  -->
+            <!-- <ul>   
+                <li><a href="#" title="Incensos">
+                <img class="test-img2" id="incenso" src="./incenso.jpg" alt=""></a></li>
+                <p>Produto indisponivel. <br></p>
+                <p>preço: R$10</p>
+            </ul>
+            <ul>   
+                <li><a href="#" title="Incensos">
+                <img class="test-img2" id="incenso" src="./incenso.jpg" alt=""></a></li>
+                <p>Produto indisponivel. <br></p>
+                <p>preço: R$10</p>
+            </ul> -->
+        <!-- </div>        
+        <div id="produtos">
+            <ul>
+                <li><a href="#" title="Pedras">
+                <img class="test-img3" id="pedras" src="./ametista.jpg" alt=""></a></li>  
+                <p>Produto indisponivel. <br></p>
+                <p>preço: R$10</p>
+            </ul>  -->
+            <!-- <ul>
+                <li><a href="#" title="Pedras">
+                <img class="test-img3" id="pedras" src="./ametista.jpg" alt=""></a></li>
+                <p>Produto indisponivel. <br></p>
+                <p>preço: R$10</p>  
+            </ul> 
+            <ul>
+                <li><a href="#" title="Pedras">
+                <img class="test-img3" id="pedras" src="./ametista.jpg" alt=""></a></li>  
+                <p>Produto indisponivel. <br></p>
+                <p>preço: R$10</p>
+            </ul>  -->
+        </div>     
+    </section>
     <section id="contact">
         <div>
             <h2>Contato</h2>
@@ -56,23 +121,12 @@
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
-                <div>
-                    <h3>Siga-nos</h3>
-                    <ul class="social-links">
-                        <li><a href="#" title="siga-nos no instagram">
-                            <img src="./instagram.png" alt="Logo do instagram">
-                        </a></li>
-                        <li><a href="#" title="siga-nos no facebook">
-                            <img src="./facebook.png" alt="Logo do facebook">
-                        </a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Faça-nos uma visita</h3>
-                    <p>Rua das ametistas, 10 - Vila dos Arquétipos, São Paulo</p>
-                </div>
-            </div>
+             </div>
         </div>
+    </section>
+    <section>
+        <h3>Faça-nos uma visita</h3>
+        <address>Rua das ametistas, 10 - Vila dos Arquétipos, São Paulo</address>
     </section>
     <footer>
         <div class="container">
